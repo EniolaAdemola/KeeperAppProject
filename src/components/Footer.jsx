@@ -1,14 +1,14 @@
 import React from "react";
 
-const date = new Date()
-const year = date.getFullYear()
+const date = new Date();
+const year = date.getFullYear();
 
 const Footer = () => {
-    return(
-        <footer>
-            <p>Eniola Ademola &copy; {year}</p>
-        </footer>
-    )
-}
+	return (
+		<footer>
+			<p>Copyright Eniola Ademola &copy; {year}</p>
+		</footer>
+	);
+};
 
-export default Footer
+export default Footer;

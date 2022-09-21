@@ -6,7 +6,10 @@ const year = date.getFullYear();
 const Footer = () => {
 	return (
 		<footer>
-			<p>Copyright Eniola Ademola &copy; {year}</p>
+			<p>
+				Copyright <a href="https://eniola-ademola.vercel.app">Eniola Ademola</a>{" "}
+				&copy; {year}
+			</p>
 		</footer>
 	);
 };
